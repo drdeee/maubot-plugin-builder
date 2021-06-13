@@ -18,7 +18,8 @@ if (fs.existsSync('./maubot.yaml')) {
     }
 
     if (maubotConfig.id && maubotConfig.version) {
-
+        
+        core.setOutput('plugin_version', maubotConfig.version)
         const outFile = maubotConfig.id + '-v' + maubotConfig.version + '.mbp'
         if (fs.existsSync('./' + outFile)) {
             core.info('Plugin allready exsists; deleting old file..')

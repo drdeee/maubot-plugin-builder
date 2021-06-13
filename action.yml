@@ -5,6 +5,8 @@ author: 'DrDeee'
 outputs:
   plugin_file:
     description: The file name of the generated plugin
+  plugin_version:
+    description: The version of the plugin
 
 runs:
   using: 'node14'
