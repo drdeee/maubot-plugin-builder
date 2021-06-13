@@ -9,5 +9,5 @@ outputs:
     description: The version of the plugin
 
 runs:
-  using: 'node14'
+  using: 'node12'
   main: 'dist/index.js'
