@@ -1,0 +1,11 @@
+name: 'Maubot Plugin builder action'
+description: 'Builds your maubot plugins.'
+author: 'DrDeee'
+
+outputs:
+  plugin_file:
+    description: The file name of the generated plugin
+
+runs:
+  using: 'node14'
+  main: 'dist/index.js'
