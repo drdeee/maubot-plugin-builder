@@ -17,6 +17,7 @@ jobs:
       - name: Build plugin # Build your plugin. The maubot.yaml should be in the root of your repository
         uses: DrDeee/maubot-plugin-builder@v1
         id: build
+        
       - name: Create Release # Create a new release with your plugin version..
         id: create_release
         uses: actions/create-release@v1
