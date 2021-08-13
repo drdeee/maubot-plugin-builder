@@ -2,7 +2,7 @@
 A simple Github action which should pack Maubot plugins.
 
 # Example Workflow
-```
+```yaml
 name: build
 on:
   workflow_dispatch: // You have to trigger this workflow manually
